@@ -2,6 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 var lCaseChoice = 'abcdefghijklmnopqrstuvwxyz';
 var uCaseChoice = lCaseChoice.toUpperCase;
+var spclCars = "#@%*$+"
+var numChoices = "0123456789"
 // create and initialize variables for password random lettters charecters 
 
 // Write password to the #password input
@@ -17,9 +19,9 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
-var password = "hello world";
+var password = "";
 
 console.log(password);
 
 
-}
+} 
