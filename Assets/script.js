@@ -70,7 +70,7 @@ function generatePassword() {
   for (let i = 0; i < psswrdLength; i++) {
     password += charSet.charAt(Math.floor(Math.random() * charSet.length));
   }
-  // loops through charSet variable to create random values based on the users choices for each iteration
+  // loops through password variable and appends charSet variable to create random values based on the users choices for each iteration
   return password;
 
 
